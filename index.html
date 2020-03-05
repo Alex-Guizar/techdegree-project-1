@@ -8,13 +8,13 @@
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <body>
 
-    <div class="main-nav">
+    <nav class="main-nav">
         <ul class="nav">
           <li class="name">Alex Guizar</li>
           <li><a href="index.html">Home</a></li>
           <li><a href="experience.html">Experience</a></li>
         </ul>
-    </div>
+    </nav>
 
     <header>
       <img src="images/new_profile_pic.jpg" alt="Picture of Alex Guizar" class="profile-image">
@@ -22,24 +22,39 @@
       <p class="tag location">I live in San Luis Obispo, California.</p>
     </header>
 
-    <main class="flex">
-      <div class="card">
-        <h2>Background</h2>
-        <p>I’m an aspiring web developer who loves to bring clean, snappy designs to life. I utilize my expertise in troubleshooting and attention to detail to quickly discern and solve any issues that arise. My self-management helps keep projects moving forward.</p>
-        <p>I have been a professional developer for many years, and independent learning outside of work and with side projects ensures skills are always improving.</p>
+    <main>
+      <div class="flex">
+        <section class="card">
+          <h2>Background</h2>
+          <p>I’m an aspiring web developer who loves to bring clean, snappy designs to life. I utilize my expertise in troubleshooting and attention to detail to quickly discern and solve any issues that arise. My self-management helps keep projects moving forward.</p>
+          <p>I have been a professional developer for many years, and independent learning outside of work and with side projects ensures skills are always improving.</p>
+        </section>
+
+        <section class="card">
+          <h2>Goals</h2>
+          <p>I want to solidify and master the process of building web sites, while increasing my knowledge, skills and abilities in:</p>
+          <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Vue</li>
+          </ul>
+        </section>
       </div>
 
-      <div class="card">
-        <h2>Goals</h2>
-        <p>I want to solidify and master the process of building web sites, while increasing my knowledge, skills and abilities in:</p>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Vue</li>
-        </ul>
-        <p>I’d like to work for an ecommerce or web development firm to help create amazing user experiences.</p>
+      <div class="flex">
+        <section class="card">
+          <h2>Hobbies</h2>
+          <p>When I am not working or studying I have many hobbies to take up my time. I love to travel when given the opportunity. I also enjoy cooking (consequently eating as well) and playing video games. When winter comes around I try to hit the mountains to get some snowboarding in.</p>
+        </section>
+
+        <section class="card">
+          <figure>
+            <img src="images/dontonbori.jpg" alt="Picture of Dontonbori, Japan" class="travel-image">
+            <figcaption>Picture of Dontonbori while traveling in Japan</figcaption>
+          </figure>
+        </section>
       </div>
 
     </main>

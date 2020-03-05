@@ -21,6 +21,11 @@ a:hover {
   color: #6633ff;
 }
 
+/* Figure Reset */
+figure {
+  margin: 0;
+}
+
 /* Section Styles */
 
 .main-nav {
@@ -57,7 +62,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/new_background.jpg') no-repeat top center ;
+  background: url('images/new_background.jpg') no-repeat center center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,12 +74,13 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 25%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  border-color: #0399ff;
 }
 .tag {
   background-color: #efefef;
@@ -86,10 +92,10 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: yellow;
+  color: lightgreen;
 }
 .card {
-  margin: 30px;
+  margin: 30px auto;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
@@ -99,7 +105,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0399ff;
 }
 
 ul.skills {
@@ -118,6 +124,11 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.travel-image {
+  width: 100%;
+  max-width: 400px;
 }
 
 footer {
@@ -186,6 +197,10 @@ a.social:hover {
   .nav {
     max-width: 1200px;
     padding: 0 30px;
+  }
+
+  .card {
+    margin: 30px;
   }
 
 
